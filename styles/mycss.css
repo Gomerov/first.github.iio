@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Autour One&display=swap");
+
+body {
+    font-family: Autour One, serif;
+    background: linear-gradient(0deg, #e22222 9%, #ee7717 63%, #ec5413 96%);
+}
+
+.nav-link {
+    color: orange;
+}
+
+.navbar-nav .nav-link.active {
+    color: orange;
+}
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: olive;
+}
+
+.sidebar {
+    color:black;
+    background:linear-gradient(270deg, #d64b4b 9%, #504032 63%, #f06124 96%);
+}
+
+.card {
+    background:linear-gradient(270deg, #fc3f3f 40%, #ee750b 60%);
+    
+
+}
+
+.card a {
+    text-decoration: none;
+    color:black;
+}
+
+.slide-text,
+.footer-text {
+    color: black;
+    margin: auto auto;   
+}
+
+@media (max-width: 775px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer, .btn-outline-primary {
+    background:linear-gradient(270deg, #fc3f3f 40%, #ee750b 60%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
